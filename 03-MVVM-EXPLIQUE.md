@@ -1,4 +1,4 @@
-# 🎨 MVVM Expliqué avec des Diagrammes
+# MVVM Expliqué avec des Diagrammes
 
 > **Guide ultra-visuel pour comprendre MVVM en Flutter**
 
