@@ -1,10 +1,10 @@
-# 📚 Exemple MVVM Flutter - Démo Pédagogique
+#  Exemple MVVM Flutter - Démo Pédagogique
 
 Ce projet est une **démo pédagogique** qui illustre l'architecture **MVVM** (Model-View-ViewModel) en Flutter de manière simple et concrète.
 
 ---
 
-## 🎯 Objectif
+##  Objectif
 
 Montrer **comment organiser une application Flutter** en séparant :
 - **Vue** (interface utilisateur)
@@ -13,7 +13,7 @@ Montrer **comment organiser une application Flutter** en séparant :
 
 ---
 
-## 🏗️ Architecture MVVM
+##  Architecture MVVM
 
 ```text
 ┌─────────────┐      ┌──────────────┐      ┌─────────────┐
@@ -35,7 +35,7 @@ Montrer **comment organiser une application Flutter** en séparant :
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```text
 lib/
@@ -52,7 +52,7 @@ lib/
 
 ---
 
-## 🔄 Flux de données
+##  Flux de données
 
 ### Exemple : Chargement de la liste d'articles
 
@@ -78,7 +78,7 @@ lib/
 
 ---
 
-## 🧩 Explication des fichiers clés
+##  Explication des fichiers clés
 
 ### 1. `models/article.dart` (MODEL)
 
@@ -169,7 +169,7 @@ class HomePage extends StatelessWidget {
 
 ---
 
-## 🚀 Installation et lancement
+##  Installation et lancement
 
 ### Prérequis
 - Flutter SDK (≥ 3.0.0)
@@ -187,26 +187,26 @@ flutter run
 
 ---
 
-## 🎨 Fonctionnalités de la démo
+##  Fonctionnalités de la démo
 
-- ✅ **Affichage de la liste** d'articles avec loader
-- ✅ **Pull-to-refresh** (glisser vers le bas)
-- ✅ **Gestion d'erreurs** avec bouton de réessai
-- ✅ **Statistiques** (nombre d'articles par auteur)
-- ✅ **État vide** (quand aucun article)
-- ✅ **Cards cliquables** (détails en popup)
+-  **Affichage de la liste** d'articles avec loader
+-  **Pull-to-refresh** (glisser vers le bas)
+-  **Gestion d'erreurs** avec bouton de réessai
+-  **Statistiques** (nombre d'articles par auteur)
+-  **État vide** (quand aucun article)
+-  **Cards cliquables** (détails en popup)
 
 ---
 
-## 📖 Principes MVVM appliqués
+##  Principes MVVM appliqués
 
-### ✅ Séparation des responsabilités
+###  Séparation des responsabilités
 
 - **View** : affiche, ne calcule rien
 - **ViewModel** : calcule, ne connaît pas les widgets
 - **Model** : données pures
 
-### ✅ Testabilité
+###  Testabilité
 
 Le ViewModel peut être testé **sans Flutter** :
 
@@ -222,13 +222,13 @@ test('loadArticles charge les données', () async {
 });
 ```
 
-### ✅ Réutilisabilité
+###  Réutilisabilité
 
 Le même ViewModel peut être utilisé par plusieurs Views (mobile, web, desktop).
 
 ---
 
-## 🔧 Technologies utilisées
+##  Technologies utilisées
 
 - **Flutter** : Framework UI
 - **Provider** : Gestion d'état (liaison View ↔ ViewModel)
@@ -236,7 +236,7 @@ Le même ViewModel peut être utilisé par plusieurs Views (mobile, web, desktop
 
 ---
 
-## 📚 Pour aller plus loin
+##  Pour aller plus loin
 
 ### Améliorations possibles
 
@@ -255,7 +255,7 @@ Le même ViewModel peut être utilisé par plusieurs Views (mobile, web, desktop
 
 ---
 
-## 🎓 Résumé en une phrase
+##  Résumé en une phrase
 
 > **La View demande au ViewModel, le ViewModel demande au Model.**
 > 
@@ -263,13 +263,13 @@ Le même ViewModel peut être utilisé par plusieurs Views (mobile, web, desktop
 
 ---
 
-## 👨‍💻 Auteur
+##  Auteur
 
 Exemple pédagogique créé pour illustrer MVVM en Flutter.
 
 ---
 
-## 📝 Licence
+##  Licence
 
 Libre d'utilisation pour l'apprentissage.
 
